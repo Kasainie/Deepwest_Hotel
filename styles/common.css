@@ -1,0 +1,29 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+@keyframes slideInleft{
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+    h1{
+        animation-name: slideInleft;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        
+    }
+        
